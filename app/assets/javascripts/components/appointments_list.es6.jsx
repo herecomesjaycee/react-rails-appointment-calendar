@@ -1,5 +1,4 @@
-const AppointmentsList = ({appointments}) => {
-  return (
+const AppointmentsList = ({appointments}) => 
     <div>
       {appointments.map(function(appointment) {
         return (
@@ -7,5 +6,3 @@ const AppointmentsList = ({appointments}) => {
         )
       })}
     </div>
-  )
-}
